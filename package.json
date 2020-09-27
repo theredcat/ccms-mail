@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Nathan DELHAYE"
+  },
+  "name": "ccms-mail",
+  "description": "Mail module for CCMS",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://pikacode.com/redcat/ccms-mail/"
+  },
+  "main": "./lib/mail.js",
+  "keywords": [
+    "mail",
+    "ccms"
+  ],
+  "dependencies": {
+    "nodemailer": "0.6.1",
+    "node-uuid": "1.4.1"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "config": {
+    "port": 25,
+    "host": "localhost",
+    "sender": "the@red.cat",
+    "username": "",
+    "password": "",
+    "smtps": false,
+    "transport": "direct",
+    "debug": false
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ccms-mail@1.0.0",
+  "_shasum": "af12c35d66832250556aa64311348eba4fabc25e",
+  "_resolved": "git+http://pikacode.com/redcat/ccms-mail.git#553d758f3212e5fc43bd6ba000d485b71df21098",
+  "_from": "ccms-mail@git+http://pikacode.com/redcat/ccms-mail.git"
+}
